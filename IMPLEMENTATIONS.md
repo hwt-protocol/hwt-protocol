@@ -6,7 +6,7 @@ Built and maintained alongside the specification. Used as the conformance surfac
 
 | Language | Source | Spec version | Comment |
 |---|---|---|---|
-| JavaScript | Hwtr [jsr.io/@hwt/hwtr-js](https://jsr.io/@hwt/hwtr-js) | v0.7 | [hwt-demo](hwt-demo) related demos
+| JavaScript | [Hwtr jsr.io/@hwt/hwtr-js](https://jsr.io/@hwt/hwtr-js) | v0.7 | [demos, implementations](https://github.com/hwt-protocol/hwt-demo)
 
 ## Community
 
