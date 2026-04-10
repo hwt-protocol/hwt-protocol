@@ -134,10 +134,10 @@ GET https://{issuer-domain}/.well-known/hwt.json
 ## 實作
 
 **參考程式庫**
-- [hwtr-js](../hwtr-js) — JavaScript 參考實作
+- [hwtr-js](../hwtr-js/) — JavaScript 參考實作
 
 **示例**
-- [hwt-demo](../hwt-demo) — JavaScript 可執行示例，包含以下內容（Deno 與 Cloudflare Workers 部署等）。
+- [hwt-demo](../hwt-demo/) — JavaScript 可執行示例，包含以下內容（Deno 與 Cloudflare Workers 部署等）。
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — AI 代理人委派鏈
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — 完整 del[] 鏈路驗證與已撤銷連結偵測
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — 多方聯合授權

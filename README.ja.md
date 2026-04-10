@@ -134,10 +134,10 @@ issuer URL、プロトコルバージョン、サポートするauthzスキー�
 ## 実装
 
 **リファレンスライブラリ**
-- [hwtr-js](../hwtr-js) — JavaScriptリファレンス実装
+- [hwtr-js](../hwtr-js/) — JavaScriptリファレンス実装
 
 **デモ**
-- [hwt-demo](../hwt-demo) — JavaScriptの動作デモ（以下を含む）（Deno・Cloudflare Workersデプロイなど）
+- [hwt-demo](../hwt-demo/) — JavaScriptの動作デモ（以下を含む）（Deno・Cloudflare Workersデプロイなど）
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — AIエージェントのdelegation chain
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — 失効リンク検出を含む完全なdel[]チェーン検証
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — マルチパーティの双方向検証

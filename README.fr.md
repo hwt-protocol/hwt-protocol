@@ -134,10 +134,10 @@ L'ancre de confiance est le domaine de l'émetteur, pas une autorité centrale. 
 ## Implémentations
 
 **Bibliothèque de référence**
-- [hwtr-js](../hwtr-js) — implémentation de référence JavaScript
+- [hwtr-js](../hwtr-js/) — implémentation de référence JavaScript
 
 **Démos**
-- [hwt-demo](../hwt-demo) — démos JavaScript fonctionnelles incluant ce qui suit (déploiements Deno et Cloudflare Workers, etc.).
+- [hwt-demo](../hwt-demo/) — démos JavaScript fonctionnelles incluant ce qui suit (déploiements Deno et Cloudflare Workers, etc.).
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — chaîne de délégation d'agents IA
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — vérification complète de chaîne del[] avec détection de lien révoqué
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — vérification bilatérale multi-parties

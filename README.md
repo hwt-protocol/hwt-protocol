@@ -134,10 +134,10 @@ The trust anchor is the issuer's domain, not a central authority. Verification d
 ## Implementations
 
 **Reference library**
-- [hwtr-js](../hwtr-js) — JavaScript reference implementation
+- [hwtr-js](../hwtr-js/) — JavaScript reference implementation
 
 **Demos**
-- [hwt-demo](../hwt-demo) — JavaScript working demos including the following (Deno and Cloudflare Workers deployments, etc).
+- [hwt-demo](../hwt-demo/) — JavaScript working demos including the following (Deno and Cloudflare Workers deployments, etc).
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — AI agent delegation chain
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — Full del[] chain verification with revoked link detection
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — Multi-party bilateral verification

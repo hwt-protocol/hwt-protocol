@@ -134,10 +134,10 @@ El ancla de confianza es el dominio del issuer, no una autoridad central. La ver
 ## Implementaciones
 
 **Biblioteca de referencia**
-- [hwtr-js](../hwtr-js) — implementación de referencia en JavaScript
+- [hwtr-js](../hwtr-js/) — implementación de referencia en JavaScript
 
 **Demostraciones**
-- [hwt-demo](../hwt-demo) — demostraciones funcionales en JavaScript incluyendo lo siguiente (despliegues en Deno y Cloudflare Workers, etc.).
+- [hwt-demo](../hwt-demo/) — demostraciones funcionales en JavaScript incluyendo lo siguiente (despliegues en Deno y Cloudflare Workers, etc.).
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — Cadena de delegación de agentes de IA
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — Verificación completa de cadena del[] con detección de enlaces revocados
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — Verificación bilateral entre múltiples partes

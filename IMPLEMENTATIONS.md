@@ -4,9 +4,9 @@
 
 Built and maintained alongside the specification. Used as the conformance surface for the verification algorithm defined in §14.
 
-| Language | Repository | Spec version | Comment |
+| Language | Source | Spec version | Comment |
 |---|---|---|---|
-| JavaScript | [hwtr-js](../hwtr-js) | v0.7 | [hwt-demo](hwt-demo) related demos
+| JavaScript | Hwtr [jsr.io/@hwt/hwtr-js](https://jsr.io/@hwt/hwtr-js) | v0.7 | [hwt-demo](hwt-demo) related demos
 
 ## Community
 

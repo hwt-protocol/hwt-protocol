@@ -134,10 +134,10 @@ Der Vertrauensanker ist die Domain des Issuers, keine zentrale Autorität. Die V
 ## Implementierungen
 
 **Referenzbibliothek**
-- [hwtr-js](../hwtr-js) — JavaScript-Referenzimplementierung
+- [hwtr-js](../hwtr-js/) — JavaScript-Referenzimplementierung
 
 **Demos**
-- [hwt-demo](../hwt-demo) — JavaScript-Demo-Implementierungen, einschließlich der folgenden (Deno- und Cloudflare-Workers-Deployments usw.).
+- [hwt-demo](../hwt-demo/) — JavaScript-Demo-Implementierungen, einschließlich der folgenden (Deno- und Cloudflare-Workers-Deployments usw.).
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — KI-Agenten-Delegation Chain
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — Vollständige del[]-Kettenverifizierung mit Erkennung widerrufener Links
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — Bilaterale Verifizierung mehrerer Parteien

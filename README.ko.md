@@ -134,10 +134,10 @@ GET https://{issuer-domain}/.well-known/hwt.json
 ## 구현체
 
 **참조 라이브러리**
-- [hwtr-js](../hwtr-js) — JavaScript 참조 구현체
+- [hwtr-js](../hwtr-js/) — JavaScript 참조 구현체
 
 **데모**
-- [hwt-demo](../hwt-demo) — 다음 항목을 포함한 JavaScript 동작 데모(Deno 및 Cloudflare Workers 배포 등)
+- [hwt-demo](../hwt-demo/) — 다음 항목을 포함한 JavaScript 동작 데모(Deno 및 Cloudflare Workers 배포 등)
 - [demo-agent-chain.js](../hwt-demo/demo-agent-chain.js) — AI 에이전트 위임 체인
 - [demo-del-verify.js](../hwt-demo/demo-del-verify.js) — del[] 체인 전체 검증 및 폐기된 링크 감지
 - [demo-multiparty.js](../hwt-demo/demo-multiparty.js) — 다자간 양방향 검증
