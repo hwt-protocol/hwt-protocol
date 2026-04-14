@@ -1,6 +1,6 @@
 # Hash Web Token (HWT)
 
-[正式文件](https://hwtprotocol.com/hwt-protocol) [議題](https://github.com/hwt-protocol/hwt-protocol/issues) [討論](https://github.com/hwt-protocol/hwt-protocol/discussions)
+[正式文件](https://www.jimmont.com/hwt/hwt-protocol) [議題](https://github.com/hwt-protocol/hwt-protocol/issues) [討論](https://github.com/hwt-protocol/hwt-protocol/discussions)
 
 無狀態的網路原生 token 協定，用於跨網域委派。
 

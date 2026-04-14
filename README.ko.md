@@ -1,6 +1,6 @@
 # Hash Web Token (HWT)
 
-[공식 문서](https://hwtprotocol.com/hwt-protocol) [이슈](https://github.com/hwt-protocol/hwt-protocol/issues) [토론](https://github.com/hwt-protocol/hwt-protocol/discussions)
+[공식 문서](https://www.jimmont.com/hwt/hwt-protocol) [이슈](https://github.com/hwt-protocol/hwt-protocol/issues) [토론](https://github.com/hwt-protocol/hwt-protocol/discussions)
 
 도메인 간 위임(cross-domain delegation)을 위한 상태 비저장(stateless), 네트워크 네이티브 token 프로토콜입니다.
 

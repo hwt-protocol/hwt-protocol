@@ -1,6 +1,6 @@
 # Hash Web Token (HWT)
 
-[documentación canónica](https://hwtprotocol.com/hwt-protocol) [issues](https://github.com/hwt-protocol/hwt-protocol/issues) [discussions](https://github.com/hwt-protocol/hwt-protocol/discussions)
+[documentación canónica](https://www.jimmont.com/hwt/hwt-protocol) [issues](https://github.com/hwt-protocol/hwt-protocol/issues) [discussions](https://github.com/hwt-protocol/hwt-protocol/discussions)
 
 Un protocolo de token sin estado y nativo de red para la delegación entre dominios.
 

@@ -1,6 +1,6 @@
 # Hash Web Token (HWT)
 
-[正規ドキュメント](https://hwtprotocol.com/hwt-protocol) [issues](https://github.com/hwt-protocol/hwt-protocol/issues) [discussions](https://github.com/hwt-protocol/hwt-protocol/discussions)
+[正規ドキュメント](https://www.jimmont.com/hwt/hwt-protocol) [issues](https://github.com/hwt-protocol/hwt-protocol/issues) [discussions](https://github.com/hwt-protocol/hwt-protocol/discussions)
 
 クロスドメイン委任のための、ステートレスなネットワークネイティブトークンプロトコル。
 
