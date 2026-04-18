@@ -181,7 +181,7 @@ To add a community identifier, open a PR with the full name, applicable regions,
 
 ## Token Exchange Scope Conventions
 
-The `scope` field in token exchange requests ([SPEC](SPEC.md) §8.2) restricts the derived token's `authz` to a subset of the subject token's `authz`. Scope semantics are schema-defined ((SPEC](SPEC.md) §8) and deferred to community conventions.
+The `scope` field in token exchange requests ([SPEC](SPEC.md) §8.2) restricts the derived token's `authz` to a subset of the subject token's `authz`. Scope semantics are schema-defined ([SPEC](SPEC.md) §8) and deferred to community conventions.
 
 This section is a placeholder. Scope convention definitions belong here when the community is ready to propose them. Until then, issuers and consumers that use `scope` in token exchange define its semantics privately and document them alongside their `authz` schema definitions.
 
