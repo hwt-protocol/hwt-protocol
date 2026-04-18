@@ -17,7 +17,7 @@ Token 由發行端來源簽署，任何能連接到 issuer（發行方）網域�
 - 規定透過 `/.well-known/hwt-keys.json` 的 JWKS 進行 key discovery（金鑰探索）
 - 定義 `/.well-known/hwt.json` 的來源元資料探索
 - 提供結構化的 delegation chain（委派鏈）（`del`），並附有規範性鏈路構建規則
-- 定義 codec 登錄（`j` / JSON 為基準；社群 codec 記錄於 CONVENTIONS.md）
+- 定義 codec 登錄（`j` / JSON 為基準；社群 codec 記錄於 [CONVENTIONS.md](CONVENTIONS.md)）
 - 全程遵循標準 HTTP 快取 — 無需特殊快取基礎設施
 
 ## HWT 不涵蓋的事項
@@ -44,7 +44,7 @@ hwt.signature.key-id.expires-unix-seconds.format.payload
 
 六個以點分隔的欄位。點是欄位分隔符，不得出現在 `key-id`、`format` 或頂層名稱中。
 
-`format` 宣告 codec。`j`（JSON）是唯一必要的 codec。額外的社群 codec 記錄於 CONVENTIONS.md。
+`format` 宣告 codec。`j`（JSON）是唯一必要的 codec。額外的社群 codec 記錄於 [CONVENTIONS.md](CONVENTIONS.md)。
 
 到期時間是結構性的 — 超過 `expires` 值的 token 無條件無效，無論簽章是否有效。
 

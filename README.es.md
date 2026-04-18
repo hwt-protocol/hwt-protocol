@@ -17,7 +17,7 @@ Los tokens son firmados por un origen emisor, verificables por cualquier parte q
 - Especifica key discovery (descubrimiento de claves) via JWKS en `/.well-known/hwt-keys.json`
 - Define el descubrimiento de metadatos del origen en `/.well-known/hwt.json`
 - Proporciona una delegation chain (cadena de delegación) estructurada (`del`) con reglas normativas de construcción de cadena
-- Define un registro de codecs (`j` / JSON es la base; codecs de la comunidad en CONVENTIONS.md)
+- Define un registro de codecs (`j` / JSON es la base; codecs de la comunidad en [CONVENTIONS.md](CONVENTIONS.md))
 - Sigue el caché HTTP estándar en todo momento — sin infraestructura de caché especial
 
 ## Lo que HWT no contempla
@@ -44,7 +44,7 @@ hwt.signature.key-id.expires-unix-seconds.format.payload
 
 Seis campos separados por puntos. El punto es el separador de campos y NO DEBE aparecer en `key-id`, `format` ni en el nombre de nivel superior.
 
-`format` declara el codec. `j` (JSON) es el único codec requerido. Codecs adicionales de la comunidad están documentados en CONVENTIONS.md.
+`format` declara el codec. `j` (JSON) es el único codec requerido. Codecs adicionales de la comunidad están documentados en [CONVENTIONS.md](CONVENTIONS.md).
 
 La expiración es estructural — un token pasada su fecha `expires` es incondicionalmente inválido independientemente de la validez de la firma.
 

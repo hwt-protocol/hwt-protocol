@@ -203,7 +203,7 @@ Example — private org schema with origin-relative reference:
 }
 ```
 
-For RBAC-specific examples including capability grants and multi-role patterns, see CONVENTIONS.md.
+For RBAC-specific examples including capability grants and multi-role patterns, see [CONVENTIONS](CONVENTIONS.md).
 
 ### 4.3 Array form — multiple schemes
 
@@ -222,7 +222,7 @@ Array evaluation semantics are declared in `hwt.json` via `authz_evaluation`. De
 
 | Value form | Resolution |
 |---|---|
-| `"RBAC/1.0.2"` | Community convention identifier — see CONVENTIONS.md |
+| `"RBAC/1.0.2"` | Community convention identifier — see [CONVENTIONS](CONVENTIONS.md) |
 | `"/path/to/schema"` | Origin-relative: prepend `iss` value |
 | `"https://..."` | Absolute URL — issuer's responsibility. Content-addressed URLs strongly recommended. |
 
@@ -238,7 +238,7 @@ The `format` field in the token structure declares the codec used to encode the 
 
 `j` (JSON, RFC 8259) is the only normative codec. All conforming implementations MUST support `j`. It is the interoperability baseline. Implementations that encounter an unsupported codec identifier MUST reject the token — they MUST NOT attempt to parse the payload as JSON.
 
-Additional codecs may be defined by the community. The identifier format above applies to all community-defined codecs. Proprietary codec identifiers SHOULD begin with an uppercase letter; versioned codecs MAY use a trailing number (e.g., `MyCodec2`). Examples of community codecs and their implementation details are in CONVENTIONS.md.
+Additional codecs may be defined by the community. The identifier format above applies to all community-defined codecs. Proprietary codec identifiers SHOULD begin with an uppercase letter; versioned codecs MAY use a trailing number (e.g., `MyCodec2`). Examples of community codecs and their implementation details are in [CONVENTIONS](CONVENTIONS.md).
 
 ---
 
@@ -473,7 +473,7 @@ HWT well-known documents use standard HTTP caching [RFC 9111].
 
 There is no standard registry defined by this protocol. Any registry of 
 `authz` schema identifiers, codec identifiers, or related vocabulary is a community 
-artifact, separate from this specification. CONVENTIONS.md contains a proposed set 
+artifact, separate from this specification. [CONVENTIONS](CONVENTIONS.md) contains a proposed set 
 of community conventions including example schema identifiers (e.g., `RBAC/1.0.2`) 
 and codec identifiers — these are starting points for interoperability, not 
 normative protocol elements.
@@ -596,7 +596,7 @@ A cryptographically valid token may fail structural authorization validation —
 The following are explicitly outside this protocol. Being explicit about these boundaries is intentional: narrower commitments produce more precise security claims, more predictable library behavior, and clearer integrator responsibility.
 
 - **Token state and revocation.** Whether a token has been invalidated after issuance is not a property of the signed byte string. HWT defines what a token structurally guarantees; it does not define session lifecycle. Applications requiring immediate invalidation maintain their own state store and check it in the application layer. Short token lifetimes are the primary mechanism for bounding exposure window. This is a deliberate scope boundary, not a gap.
-- **Jurisdiction and data sovereignty.** Outside the protocol scope. Applications that need jurisdiction context embed it in `authz` via a private schema or carry it through other application-defined payload fields. See CONVENTIONS.md for patterns.
+- **Jurisdiction and data sovereignty.** Outside the protocol scope. Applications that need jurisdiction context embed it in `authz` via a private schema or carry it through other application-defined payload fields. See [CONVENTIONS](CONVENTIONS.md) for patterns.
 - **Token issuance.** How a principal obtains a token is between the principal and the issuing service. HWT defines verification, not issuance. A natural complement for the issuance side is WebAuthn/FIDO2 (W3C), which is also domain-sovereign and requires no central provider.
 - **Schema content.** What RBAC roles mean, what private schemas contain — negotiated between issuers and consuming applications.
 - **Authorization evaluation.** Whether a verified token's `authz` values authorize a specific action is the consuming application's decision. Policy evaluation engines such as OPA (Open Policy Agent) or Casbin are natural complements.
@@ -626,7 +626,7 @@ Token expiry is the primary security control for bounding token exposure. Shorte
 
 ### A.2 `tid` Usage
 
-`tid` is an opaque string available for application use. See CONVENTIONS.md for usage patterns including replay detection, audit trail construction, and application-level state management.
+`tid` is an opaque string available for application use. See [CONVENTIONS](CONVENTIONS.md) for usage patterns including replay detection, audit trail construction, and application-level state management.
 
 ### A.3 Audience Binding
 
@@ -659,7 +659,7 @@ Both patterns are compatible with the verification algorithm in Section 12 and e
 | Item | Status | Notes |
 |---|---|---|
 | IANA well-known URI registration | Pending | Administrative. `hwt.json` and `hwt-keys.json` pending IANA registration under RFC 8615. |
-| Token exchange scope semantics | Deferred | `scope` field defined structurally in Section 8; content semantics are schema-defined. Community conventions may address standard scope schemas in CONVENTIONS.md. |
+| Token exchange scope semantics | Deferred | `scope` field defined structurally in Section 8; content semantics are schema-defined. Community conventions may address standard scope schemas in [CONVENTIONS](CONVENTIONS.md). |
 | DPoP binding | Compatible extension | RFC 9449 DPoP is compatible for proof-of-possession deployments. No spec changes required; library support TBD. |
 
 ---

@@ -17,7 +17,7 @@ Tokens are signed by an issuing origin, verifiable by any party that can reach t
 - Specifies key discovery via JWKS at `/.well-known/hwt-keys.json`
 - Defines origin metadata discovery at `/.well-known/hwt.json`
 - Provides a structured delegation chain (`del`) with normative chain construction rules
-- Defines a codec registry (`j` / JSON is the baseline; community codecs in CONVENTIONS.md)
+- Defines a codec registry (`j` / JSON is the baseline; community codecs in [CONVENTIONS.md](CONVENTIONS.md))
 - Follows standard HTTP caching throughout — no special cache infrastructure needed
 
 ## What HWT does not address
@@ -44,7 +44,7 @@ hwt.signature.key-id.expires-unix-seconds.format.payload
 
 Six dot-separated fields. The dot is the field separator and MUST NOT appear in `key-id`, `format`, or top-level name.
 
-`format` declares the codec. `j` (JSON) is the only required codec. Additional community codecs are documented in CONVENTIONS.md.
+`format` declares the codec. `j` (JSON) is the only required codec. Additional community codecs are documented in [CONVENTIONS.md](CONVENTIONS.md).
 
 Expiry is structural — a token past its `expires` value is unconditionally invalid regardless of signature validity.
 

@@ -17,7 +17,7 @@
 - `/.well-known/hwt-keys.json`のJWKS経由でkey discovery（鍵探索）を規定する
 - `/.well-known/hwt.json`でオリジンメタデータのdiscoveryを定義する
 - 規範的なチェーン構築ルールを持つstructured delegation chain（`del`）を提供する
-- codecレジストリを定義する（`j` / JSONがベースライン；コミュニティcodecはCONVENTIONS.mdに記載）
+- codecレジストリを定義する（`j` / JSONがベースライン；コミュニティcodecは[CONVENTIONS.md](CONVENTIONS.md)に記載）
 - 標準的なHTTPキャッシュに全面的に準拠 — 特別なキャッシュインフラ不要
 
 ## HWTがカバーしない領域
@@ -44,7 +44,7 @@ hwt.signature.key-id.expires-unix-seconds.format.payload
 
 6つのドット区切りフィールド。ドットはフィールドセパレーターであり、`key-id`、`format`、またはトップレベル名に含まれてはならない。
 
-`format`はcodecを宣言する。`j`（JSON）が唯一の必須codecである。追加のコミュニティcodecはCONVENTIONS.mdに記載されている。
+`format`はcodecを宣言する。`j`（JSON）が唯一の必須codecである。追加のコミュニティcodecは[CONVENTIONS.md](CONVENTIONS.md)に記載されている。
 
 有効期限は構造的なものである — `expires`値を過ぎたトークンは、署名の有効性にかかわらず無条件に無効である。
 

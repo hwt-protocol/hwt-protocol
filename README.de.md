@@ -17,7 +17,7 @@ Tokens werden von einer ausstellenden Origin signiert, sind von jeder Partei ver
 - Spezifiziert Key Discovery (Schlüsselermittlung) über JWKS unter `/.well-known/hwt-keys.json`
 - Definiert Origin-Metadaten-Discovery unter `/.well-known/hwt.json`
 - Bietet eine strukturierte Delegation Chain (Delegierungskette) (`del`) mit normativen Kettenaufbauregeln
-- Definiert eine Codec-Registry (`j` / JSON ist die Baseline; Community-Codecs in CONVENTIONS.md)
+- Definiert eine Codec-Registry (`j` / JSON ist die Baseline; Community-Codecs in [CONVENTIONS.md](CONVENTIONS.md))
 - Verwendet durchgängig Standard-HTTP-Caching – keine spezielle Cache-Infrastruktur erforderlich
 
 ## Was HWT nicht adressiert
@@ -44,7 +44,7 @@ hwt.signature.key-id.expires-unix-seconds.format.payload
 
 Sechs durch Punkte getrennte Felder. Der Punkt ist der Feldtrenner und DARF NICHT in `key-id`, `format` oder im Top-Level-Namen erscheinen.
 
-`format` deklariert den Codec. `j` (JSON) ist der einzige erforderliche Codec. Weitere Community-Codecs sind in CONVENTIONS.md dokumentiert.
+`format` deklariert den Codec. `j` (JSON) ist der einzige erforderliche Codec. Weitere Community-Codecs sind in [CONVENTIONS.md](CONVENTIONS.md) dokumentiert.
 
 Ablaufzeit ist strukturell – ein Token, der seinen `expires`-Wert überschritten hat, ist bedingungslos ungültig, unabhängig von der Signaturvalidität.
 

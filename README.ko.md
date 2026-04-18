@@ -17,7 +17,7 @@ Token은 발급자(issuer) 오리진이 서명하고, 발급자의 도메인에 
 - `/.well-known/hwt-keys.json`의 JWKS를 통한 키 발견(key discovery) 명세
 - `/.well-known/hwt.json`의 오리진 메타데이터 발견 정의
 - 규범적 체인 구성 규칙을 포함한 구조화된 위임 체인(delegation chain, `del`) 정의
-- codec 레지스트리 정의(`j`/JSON이 기준이며, 커뮤니티 codec은 CONVENTIONS.md에 기술)
+- codec 레지스트리 정의(`j`/JSON이 기준이며, 커뮤니티 codec은 [CONVENTIONS.md](CONVENTIONS.md)에 기술)
 - 표준 HTTP 캐싱을 전반적으로 따름 — 별도의 캐시 인프라 불필요
 
 ## HWT가 다루지 않는 것
@@ -44,7 +44,7 @@ hwt.signature.key-id.expires-unix-seconds.format.payload
 
 점으로 구분된 여섯 개의 필드. 점은 필드 구분자이며 `key-id`, `format`, 최상위 이름에는 포함되어서는 안 됩니다.
 
-`format`은 codec을 선언합니다. `j`(JSON)는 유일한 필수 codec입니다. 추가 커뮤니티 codec은 CONVENTIONS.md에 기술되어 있습니다.
+`format`은 codec을 선언합니다. `j`(JSON)는 유일한 필수 codec입니다. 추가 커뮤니티 codec은 [CONVENTIONS.md](CONVENTIONS.md)에 기술되어 있습니다.
 
 만료는 구조적입니다 — `expires` 값을 지난 token은 서명 유효성에 관계없이 무조건 무효입니다.
 
